@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title> Home site Node.js</title>
+</head>
+<body>
+    <h1>Home Node.js</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+        </tr>
+        <%for(i = 0; i < menu.length; i++){%>
+            <tr>
+                <td><%=menu[i].id%></td>
+                <td><%=menu[i].nome%></td>
+                <td><%=menu[i].descricao%></td>
+            </tr>
+        <%}%>
+    </table>
+</body>
+</html>
